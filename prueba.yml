@@ -1,5 +1,8 @@
-- hosts: all
+- name: Echo
+  hosts: all
   connection: local
+
+
   tasks:
     - name: saludar
       debug:
