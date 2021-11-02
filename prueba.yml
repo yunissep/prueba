@@ -1,6 +1,7 @@
 ---
-- hosts: awx
-  gather_facts: no
+- hosts: all
+  connection: local
   tasks:
     - name: saludar
-      shell:echo Hola!
+      debug:
+	msg: Hola!
