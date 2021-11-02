@@ -1,5 +1,4 @@
-- name: Echo
-  hosts: all
+- hosts: all
   connection: local
 
 
