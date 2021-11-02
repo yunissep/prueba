@@ -3,4 +3,4 @@
   tasks:
     - name: saludar
       debug:
-	msg: Hola!
+       msg: Hola!
